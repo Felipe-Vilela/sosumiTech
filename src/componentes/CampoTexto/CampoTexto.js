@@ -3,7 +3,6 @@ import './CampoTexto.css'
 
 const CampoTexto = (props) => {
 
-    console.log(props.teste)
 
     return (
             <div className="campo-texto">

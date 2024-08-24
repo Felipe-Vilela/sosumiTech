@@ -9,8 +9,11 @@ function App() {
       <Banner/>
       <Formulario/>
 
+
     </div>
   );
 }
 
 export default App;
+
+//2-44
