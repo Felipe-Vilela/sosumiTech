@@ -1,7 +1,7 @@
 .banner {
-    background-color: darkgrey;
+    background-color: #FFFAFA;
     text-align: center;
    }
 .banner img {
-    width: 50%;
+    max-width: 40%;
    }
