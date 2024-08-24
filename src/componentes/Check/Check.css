@@ -1,0 +1,28 @@
+/* .checkbox-container {
+    display: inline;
+    align-items: center;
+    margin-left: 180px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.checkbox-container label {
+    margin-left: 8px;
+    font-size: 20px;
+    color: #333;
+}
+
+ */
+
+ .checkbox{
+    margin-left: 20%;
+ }
+
+ .checkbox label{
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+ }
