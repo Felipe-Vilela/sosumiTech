@@ -7,14 +7,6 @@ import Check from "../Check/Check";
 
 const Formulario = (props) => {
     
-    // const secoes = [
-    //     'Computadores',
-    //     'Acessórios',
-    //     'Impressoras',
-    //     'Games',
-    //     'Gadgets'
-    // ]
-
     const marcas = [
         'HP',
         'Dell',
@@ -40,7 +32,7 @@ const Formulario = (props) => {
         } else if (checkedUsado) {
             estado = 'Usado';
         } else {
-            estado = 'Indefinido';
+            estado = 'Não Informado';
         }
 
         props.aoProdutoCadastrado(
@@ -80,8 +72,8 @@ const Formulario = (props) => {
                 <h2>Dados do produto:</h2>
                 <ListaSuspensa label="Seção" itens={props.secoes} aoAlterado={valor => setSecao(valor)} />
                 <ListaSuspensa label="Marca" itens={marcas} aoAlterado={valor => setMarca(valor)} />
-                <CampoTexto label="Nome" placeholder="Digite o nome do produto" aoAlterado={valor => setNome(valor)} />
-                <CampoTexto label="Preço" placeholder="Digite o preço do produto" aoAlterado={valor => setPreco(valor)} />
+                <CampoTexto type="text" label="Nome" placeholder="Digite o nome do produto" aoAlterado={valor => setNome(valor)} />
+                <CampoTexto type="number" label="Preço" placeholder="Digite o preço do produto" aoAlterado={valor => setPreco(valor)} />
                 <div className="form_div_check">
                     <Check id="novo" label="Novo" checked={checkedNovo} aoAlterado={handleCheckboxChange} />
                     <Check id="usado" label="Usado" checked={checkedUsado} aoAlterado={handleCheckboxChange} />

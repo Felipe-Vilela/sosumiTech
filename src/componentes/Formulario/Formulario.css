@@ -21,3 +21,8 @@
 .form_div_check{
     display: flex;
 }
+
+.formulario h2{
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+}

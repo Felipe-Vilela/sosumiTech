@@ -10,28 +10,28 @@ function App() {
     const secoes = [
         {
             nome : 'Computadores',
-            corPrimaria : '#57c278',
-            corSecundaria : '#d9f7e9'
+            corPrimaria : '#FC023A',
+            corSecundaria : '#fff0f3'
         },
         {
             nome: 'Acessórios',
-            corPrimaria : '#82cffa',
-            corSecundaria : '#e8f8ff'
+            corPrimaria : '#F7792D',
+            corSecundaria : '#ffefe5'
         },
         {
             nome: 'Impressoras',
-            corPrimaria : '#a6d157',
-            corSecundaria : '#f0f8e2'
+            corPrimaria : '#13D7D2',
+            corSecundaria : '#e2f5f5'
         },
         {
             nome: 'Games',
-            corPrimaria : '#e06b69',
-            corSecundaria : '#fde7e8'
+            corPrimaria : '#F50AA0',
+            corSecundaria : '#fff5fb'
         },
         {
             nome: 'Gadgets',
-            corPrimaria : '#57c278',
-            corSecundaria : '#d9f7e9'
+            corPrimaria : '#63E819',
+            corSecundaria : '#f3ffed'
         }
     ]
 
