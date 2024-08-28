@@ -4,7 +4,7 @@ import './Botao.css';
 
 const Botao = (props) => {
     return (
-        <button className='button'>
+        <button>
             {props.children}
         </button>
     )

@@ -20,6 +20,7 @@
 
 .form_div_check{
     display: flex;
+    justify-content: center;
 }
 
 .formulario h2{
